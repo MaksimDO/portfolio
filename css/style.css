@@ -1,0 +1,208 @@
+@charset "utf-8";
+@import "all.css";
+
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.end {
+    margin-right: 43%;
+}
+
+.wrapper {
+    flex: 1;
+}
+.slider {
+    position: relative;
+    height: 500px;
+    background:  url("../img/line_pattern.png"), url("../img/portfolio.webp") center / cover;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.slider2 {
+    position: relative;
+    height: 500px;
+    background:  url("../img/line_pattern.png"), url("../img/portfolio2.webp") center / cover;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.slider3 {
+    position: relative;
+    height: 500px;
+    background:  url("../img/line_pattern.png"), url("../img/portfolio3.jpg") center / cover;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.white-waves {
+    max-width: 35%;
+}
+
+
+.card-design {
+    transition: transform .5s ease-in-out;
+}
+.card-frontend {
+    transition: transform .5s ease-in-out;
+}
+.card-backend {
+    transition: transform .5s ease-in-out;
+}
+
+.card-design:hover {
+    cursor: pointer;
+    transform: skew(-30deg, 30deg);
+    transition: transform .5s ease-in-out;
+}
+.card-frontend:hover {
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+    transition: transform .5s ease-in-out;
+}
+.card-backend:hover {
+    cursor: pointer;
+    transform: scale(.8, .8);
+    transition: transform .5s ease-in-out;
+}
+
+
+.card-contacts {
+    width: 100%;
+}
+
+.card-contact {
+    
+}
+
+.card__social-link {
+    font-size: 3rem;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    background: rgb(108, 117, 125);
+    border-radius: 50%;
+    text-decoration: none;
+    color: rgb(226, 227, 229);
+    transition: all .3s ease-in-out;
+}
+.card__social-link:hover {
+    background: rgb(92, 99, 106);
+    color: #f9f9f9;
+    transform: translateY(-.25em);
+    transition: all .3s ease-in-out;
+}
+
+
+.footer-content {
+    padding: 1rem;
+}
+.footer__logo {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 1rem;
+}
+.footer__logo-text {
+    display: block;
+    color: #7f7f7f;
+    font-size: .8rem;
+    font-weight: bold;
+}
+.footer__divides {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #7f7f7f;
+    display: block;
+    margin-bottom: 1rem;
+}
+.footer__divides-links {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.footer__divides-link {
+    display: inline-block;
+    padding: .4rem .6rem;
+    background: #454545;
+    color: #7f7f7f;
+    font-size: .8rem;
+    font-weight: bold;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+    transition: all .3s ease-in-out;
+    border-radius: 5px;
+}
+.footer__divides-link:hover {
+    color: #f9f9f9;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.footer__contacts {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #7f7f7f;
+    display: block;
+    margin-bottom: .5rem;
+}
+.footer__contact-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.footer__contact-link {
+    padding: .5em .5em .5em 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #7f7f7f;
+    font-size: .8rem;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+.footer__contact-item:hover .footer__contact-link{
+    color: #f9f9f9;
+    transition: all .3s ease-in-out;
+}
+.footer__contact-item {
+    display: inline-block;
+    color: #7f7f7f;
+    transition: all .3s ease-in-out;
+}
+.footer__contact-item:hover{
+    color: #f9f9f9;
+    transition: all .3s ease-in-out;
+}
+.footer__social {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #7f7f7f;
+    display: block;
+    margin-bottom: 1rem;
+}
+.footer__social-links {
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__social-link {
+    font-size: 1.2rem;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    background: #454545;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #7f7f7f;
+    transition: all .3s ease-in-out;
+}
+.footer__social-link:hover {
+    background: rgb(92, 99, 106);
+    color: #f9f9f9;
+    transform: translateY(-.25em);
+    transition: all .3s ease-in-out;
+}
