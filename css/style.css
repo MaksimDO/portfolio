@@ -10,6 +10,24 @@
     margin-right: 43%;
 }
 
+@media screen and (max-width: 575.98px) {
+    .end {
+        margin-right: 0;
+    }
+    .white-waves {
+        width: 300px;
+    }
+    .col-contacts {
+        columns: 1;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .col-contacts {
+        columns: 2;
+    }
+}
+
 .wrapper {
     flex: 1;
 }
@@ -41,7 +59,7 @@
     justify-content: start;
 }
 .white-waves {
-    max-width: 35%;
+    max-width: 500px;
 }
 
 
@@ -74,10 +92,6 @@
 
 .card-contacts {
     width: 100%;
-}
-
-.card-contact {
-    
 }
 
 .card__social-link {
